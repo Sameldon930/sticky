@@ -1,0 +1,2633 @@
+[ 2019-06-25T09:08:15+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.065516s][吞吐率：15.26req/s] [内存消耗：1,328.62kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\laragon\www\sticky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:20:04+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.133179s][吞吐率：7.51req/s] [内存消耗：1,127.91kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c536263-5436-4b7b-8cdc-afb3caacaf54',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:20:12+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.074042s][吞吐率：13.51req/s] [内存消耗：1,127.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9b4cc5fb-4427-4dea-b244-bf7b34e82bd9',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:21:49+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.036817s][吞吐率：27.16req/s] [内存消耗：1,127.30kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '75199212-1622-48a4-96b7-cce315355bcc',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:22:34+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.016012s][吞吐率：62.45req/s] [内存消耗：1,128.08kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ea315ca9-01f2-444a-b80e-e73a8762439c',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:23:40+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.028805s][吞吐率：34.72req/s] [内存消耗：1,128.08kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '91b489f7-4632-41c4-9a96-28da9d9debb7',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:24:04+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.020546s][吞吐率：48.67req/s] [内存消耗：1,128.08kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4346bce5-fac9-4fd6-a5a7-e344dbf93cd2',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:43:32+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.041265s][吞吐率：24.23req/s] [内存消耗：1,389.95kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'purpose' => 'prefetch',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:43:32+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.354676s][吞吐率：2.82req/s] [内存消耗：1,186.05kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'purpose' => 'prefetch',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:43:35+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.021903s][吞吐率：45.66req/s] [内存消耗：1,182.17kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:45+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.016839s][吞吐率：59.39req/s] [内存消耗：1,241.95kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:46+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017604s][吞吐率：56.81req/s] [内存消耗：1,182.17kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:46+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.095496s][吞吐率：10.47req/s] [内存消耗：1,185.82kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:47+08:00 ] ::1 ::1 GET /admin/category/index.html
+[ log ] localhost/admin/category/index.html [运行时间：0.150260s][吞吐率：6.66req/s] [内存消耗：2,368.74kb] [文件加载：49]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\laragon\www\sticky\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023547s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.064274s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 LIMIT 1 [ RunTime:0.016567s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` <> -1  AND `parent_id` = 0 ORDER BY `id`  desc LIMIT 0,5 [ RunTime:0.000331s ]
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:50+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.022610s][吞吐率：44.23req/s] [内存消耗：1,241.95kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:50+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.016307s][吞吐率：61.32req/s] [内存消耗：1,182.17kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:45:50+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.082224s][吞吐率：12.16req/s] [内存消耗：1,185.82kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:46:00+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.021515s][吞吐率：46.48req/s] [内存消耗：1,241.95kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:46:01+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.013297s][吞吐率：75.20req/s] [内存消耗：1,133.63kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:46:01+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.015646s][吞吐率：63.91req/s] [内存消耗：1,182.17kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:46:08+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.027062s][吞吐率：36.95req/s] [内存消耗：1,241.95kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:46:08+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.017733s][吞吐率：56.39req/s] [内存消耗：1,133.63kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:46:08+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017140s][吞吐率：58.34req/s] [内存消耗：1,182.17kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:47:36+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.030296s][吞吐率：33.01req/s] [内存消耗：1,242.32kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:47:36+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017237s][吞吐率：58.01req/s] [内存消耗：1,182.54kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:47:36+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.092087s][吞吐率：10.86req/s] [内存消耗：1,185.88kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:48:04+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.032983s][吞吐率：30.32req/s] [内存消耗：1,390.34kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:48:04+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.021431s][吞吐率：46.66req/s] [内存消耗：1,182.54kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:48:04+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.114571s][吞吐率：8.73req/s] [内存消耗：1,185.88kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:48:21+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.022389s][吞吐率：44.66req/s] [内存消耗：1,390.34kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:48:21+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.025126s][吞吐率：39.80req/s] [内存消耗：1,182.54kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T09:48:21+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.102340s][吞吐率：9.77req/s] [内存消耗：1,185.88kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T10:18:12+08:00 ] ::1 ::1 GET /index/test
+[ log ] localhost/index/test [运行时间：0.025316s][吞吐率：39.50req/s] [内存消耗：980.98kb] [文件加载：29]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e3bc7b2-810c-4a13-bc13-74f3ca87f4ee',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T10:18:31+08:00 ] ::1 ::1 GET /admin/index/test
+[ log ] localhost/admin/index/test [运行时间：0.165999s][吞吐率：6.02req/s] [内存消耗：1,183.09kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '431c80d5-0684-4038-8ba5-c308085431be',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->test[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T10:33:23+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.034650s][吞吐率：28.86req/s] [内存消耗：1,241.76kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T10:33:24+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.024019s][吞吐率：41.63req/s] [内存消耗：1,182.54kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T10:33:24+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.115421s][吞吐率：8.66req/s] [内存消耗：1,185.88kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:14:32+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.029716s][吞吐率：33.65req/s] [内存消耗：1,224.48kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7bec06ed-46bc-4b3a-b19e-33908e82cc7d',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:16:13+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.027700s][吞吐率：36.10req/s] [内存消耗：1,224.48kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '01361864-21c9-493c-bc5d-0270ecc202b2',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:39+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.020914s][吞吐率：47.81req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:39+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.019184s][吞吐率：52.13req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:39+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.126371s][吞吐率：7.91req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:50+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.015055s][吞吐率：66.42req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:50+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.018958s][吞吐率：52.75req/s] [内存消耗：1,228.91kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:50+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.106720s][吞吐率：9.37req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:51+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.025672s][吞吐率：38.95req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:51+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017743s][吞吐率：56.36req/s] [内存消耗：1,228.91kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:17:51+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.107687s][吞吐率：9.29req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:01+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.025533s][吞吐率：39.17req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:01+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.025811s][吞吐率：38.74req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:01+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.095267s][吞吐率：10.50req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:02+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.017884s][吞吐率：55.92req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:02+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017805s][吞吐率：56.16req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:02+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.100432s][吞吐率：9.96req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.013350s][吞吐率：74.91req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.027168s][吞吐率：36.81req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.101759s][吞吐率：9.83req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.015685s][吞吐率：63.76req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017305s][吞吐率：57.79req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.094475s][吞吐率：10.58req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.029375s][吞吐率：34.04req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.021667s][吞吐率：46.15req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.097918s][吞吐率：10.21req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.021291s][吞吐率：46.97req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.016661s][吞吐率：60.02req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:21]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:03+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.105022s][吞吐率：9.52req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:27+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.015728s][吞吐率：63.58req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:27+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.018465s][吞吐率：54.16req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:27+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.140724s][吞吐率：7.11req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.015555s][吞吐率：64.29req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.017867s][吞吐率：55.97req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.094567s][吞吐率：10.57req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.029336s][吞吐率：34.09req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.019854s][吞吐率：50.37req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.096457s][吞吐率：10.37req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.015524s][吞吐率：64.42req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:28+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.018050s][吞吐率：55.40req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:29+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.092030s][吞吐率：10.87req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:29+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.015926s][吞吐率：62.79req/s] [内存消耗：1,243.35kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:29+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：0.023270s][吞吐率：42.97req/s] [内存消耗：1,228.64kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:18:29+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：0.089056s][吞吐率：11.23req/s] [内存消耗：1,186.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T11:21:02+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.020794s][吞吐率：48.09req/s] [内存消耗：1,224.80kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a75e7691-6157-46f7-ac95-83b799e8f361',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:21:23+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.021940s][吞吐率：45.58req/s] [内存消耗：1,224.76kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1fd3ab8f-0f6b-4a90-883d-696b35dc8015',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:23:24+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.018792s][吞吐率：53.21req/s] [内存消耗：1,224.76kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'caaff6bc-6037-4f07-8a21-7c022d2c4a5c',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:23:31+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.025028s][吞吐率：39.96req/s] [内存消耗：1,224.76kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '387faff7-48d3-4e58-9b3d-ea76f0f1f49a',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:23:44+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.042673s][吞吐率：23.43req/s] [内存消耗：1,224.71kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e7e3bf03-a4c2-40ce-8cd8-e4f9b96dbdc1',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\phpmailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:24:08+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.015320s][吞吐率：65.27req/s] [内存消耗：1,224.76kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5eb6d05e-d67c-40ee-8cad-00dd0e56a33e',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T11:24:22+08:00 ] ::1 ::1 GET /admin/index/testEmail
+[ log ] localhost/admin/index/testEmail [运行时间：0.017263s][吞吐率：57.93req/s] [内存消耗：1,224.76kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'testEmail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.15.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e1a64ac-2a3e-469c-936c-84c2345e6999',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->testEmail[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'phpmailer\PHPMailer' not found[D:\laragon\www\sticky\extend\phpmailer\Email.php:20]
+
+---------------------------------------------------------------
+[ 2019-06-25T13:21:04+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.066166s][吞吐率：15.11req/s] [内存消耗：1,328.70kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\laragon\www\sticky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-25T13:21:11+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.018493s][吞吐率：54.07req/s] [内存消耗：1,329.26kb] [文件加载：34]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=344099748-1561014038-%7C1561360540',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\laragon\www\sticky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

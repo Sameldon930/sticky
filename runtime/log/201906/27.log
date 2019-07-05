@@ -1,0 +1,479 @@
+[ 2019-06-27T16:11:51+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.164860s][吞吐率：6.07req/s] [内存消耗：1,329.45kb] [文件加载：35]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\laragon\www\sticky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T16:16:19+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.027254s][吞吐率：36.69req/s] [内存消耗：1,242.98kb] [文件加载：38]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T16:16:21+08:00 ] ::1 ::1 GET /admin/index/image.html
+[ log ] localhost/admin/index/image.html [运行时间：1.692384s][吞吐率：0.59req/s] [内存消耗：1,187.09kb] [文件加载：37]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->image[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T16:16:25+08:00 ] ::1 ::1 GET /admin/index/welcome.html
+[ log ] localhost/admin/index/welcome.html [运行时间：6.070470s][吞吐率：0.16req/s] [内存消耗：1,860.67kb] [文件加载：39]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T16:16:27+08:00 ] ::1 ::1 GET /bis
+[ log ] localhost/bis [运行时间：0.028201s][吞吐率：35.46req/s] [内存消耗：981.72kb] [文件加载：33]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T16:16:41+08:00 ] ::1 ::1 GET /bis/register/index
+[ log ] localhost/bis/register/index [运行时间：0.197433s][吞吐率：5.07req/s] [内存消耗：2,449.21kb] [文件加载：49]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\laragon\www\sticky\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051416s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.092283s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.012969s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:16:51+08:00 ] ::1 ::1 GET /bis/register/index
+[ log ] localhost/bis/register/index [运行时间：0.068256s][吞吐率：14.65req/s] [内存消耗：2,297.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\laragon\www\sticky\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009956s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.002379s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000728s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:19:54+08:00 ] ::1 ::1 GET /bis/register/index
+[ log ] localhost/bis/register/index [运行时间：0.048392s][吞吐率：20.66req/s] [内存消耗：2,449.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\laragon\www\sticky\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011207s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001719s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000531s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:19:56+08:00 ] ::1 ::1 POST /api/city/getcitysbyparentid.html
+[ log ] localhost/api/city/getcitysbyparentid.html [运行时间：0.037988s][吞吐率：26.32req/s] [内存消耗：2,168.51kb] [文件加载：46]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\laragon\www\sticky\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 6 ORDER BY `id`  desc [ RunTime:0.008172s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:19:59+08:00 ] ::1 ::1 POST /api/city/getcitysbyparentid.html
+[ log ] localhost/api/city/getcitysbyparentid.html [运行时间：0.030102s][吞吐率：33.22req/s] [内存消耗：2,168.25kb] [文件加载：46]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\laragon\www\sticky\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001754s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001677s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 1 ORDER BY `id`  desc [ RunTime:0.000404s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:20:04+08:00 ] ::1 ::1 POST /api/city/getcitysbyparentid.html
+[ log ] localhost/api/city/getcitysbyparentid.html [运行时间：0.039510s][吞吐率：25.31req/s] [内存消耗：2,168.51kb] [文件加载：46]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/bis/register/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ D:\laragon\www\sticky\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 2 ORDER BY `id`  desc [ RunTime:0.000397s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:51:26+08:00 ] ::1 ::1 GET /bis/register/index
+[ log ] localhost/bis/register/index [运行时间：0.052288s][吞吐率：19.12req/s] [内存消耗：2,472.58kb] [文件加载：50]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\laragon\www\sticky\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002262s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001854s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.012205s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000934s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:55:40+08:00 ] ::1 ::1 GET /bis/register/index
+[ log ] localhost/bis/register/index [运行时间：0.064083s][吞吐率：15.60req/s] [内存消耗：2,320.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\laragon\www\sticky\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009973s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001792s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000346s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T16:56:29+08:00 ] ::1 ::1 GET /bis/register/index
+[ log ] localhost/bis/register/index [运行时间：0.045091s][吞吐率：22.18req/s] [内存消耗：2,326.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ D:\laragon\www\sticky\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011414s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000333s ]
+
+---------------------------------------------------------------

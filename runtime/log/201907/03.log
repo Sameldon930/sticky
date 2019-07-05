@@ -1,0 +1,232 @@
+[ 2019-07-03T16:59:07+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.139533s][吞吐率：7.17req/s] [内存消耗：1,334.24kb] [文件加载：36]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\laragon\www\sticky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-07-03T16:59:14+08:00 ] ::1 ::1 GET /bis/login
+[ log ] localhost/bis/login [运行时间：0.032765s][吞吐率：30.52req/s] [内存消耗：1,395.08kb] [文件加载：41]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\laragon\www\sticky\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-07-03T16:59:46+08:00 ] ::1 ::1 POST /bis/login/index.html
+[ log ] localhost/bis/login/index.html [运行时间：0.066214s][吞吐率：15.10req/s] [内存消耗：2,333.91kb] [文件加载：53]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/bis/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=9ka8avl1thkgagbddd0ab0daci',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'zzs',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\laragon\www\sticky\application\bis\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\laragon\www\sticky\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008498s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.004360s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = 'zzs' LIMIT 1 [ RunTime:0.004648s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `last_login_time`=1562144386,`update_time`=1562144386  WHERE  `id` = 1 [ RunTime:0.012548s ]
+
+---------------------------------------------------------------
+[ 2019-07-03T16:59:48+08:00 ] ::1 ::1 GET /bis/index/index.html
+[ log ] localhost/bis/index/index.html [运行时间：0.018405s][吞吐率：54.33req/s] [内存消耗：1,548.84kb] [文件加载：43]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=9ka8avl1thkgagbddd0ab0daci',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ D:\laragon\www\sticky\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-07-03T16:59:55+08:00 ] ::1 ::1 GET /bis/login/index.html
+[ log ] localhost/bis/login/index.html [运行时间：0.024030s][吞吐率：41.61req/s] [内存消耗：1,551.66kb] [文件加载：43]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=9ka8avl1thkgagbddd0ab0daci',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ D:\laragon\www\sticky\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-07-03T16:59:55+08:00 ] ::1 ::1 GET /bis/index/index.html
+[ log ] localhost/bis/index/index.html [运行时间：0.017936s][吞吐率：55.75req/s] [内存消耗：1,548.23kb] [文件加载：43]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=9ka8avl1thkgagbddd0ab0daci',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\bis\controller\Index->index[ D:\laragon\www\sticky\application\bis\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/bis\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
