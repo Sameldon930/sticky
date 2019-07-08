@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a597d2a-ebdc-47c9-9eef-eee2dd79232b" name="Default Changelist" comment="" />
+    <list default="true" id="7a597d2a-ebdc-47c9-9eef-eee2dd79232b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Deal.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Deal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,72 +19,41 @@
     <favorites_list name="sticky" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54270345">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/index/controller/Order.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sticky.sql">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/common.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="662">
-                  <caret line="103" column="30" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/index/controller/Pay.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/application/index/view/order/confirm.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="331">
-                  <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
-                  <folding>
-                    <element signature="n#div#1;n#!!top" />
-                    <element signature="n#div#2;n#!!top" />
-                    <element signature="n#div#3;n#!!top" />
-                    <element signature="e#5472#5544#0" />
-                    <element signature="e#5575#6144#0" />
-                    <element signature="e#6192#6276#0" />
-                    <element signature="e#6311#6410#0" />
-                    <element signature="e#6444#6543#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#39#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/Deal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="174" column="28" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>视图</find>
-      <find>autowrite</find>
       <find>autoWriteTimestamp</find>
       <find>datetime_format</find>
       <find>o2o_s_edit</find>
@@ -109,6 +82,8 @@
       <find>getLoginUser</find>
       <find>o2o_click</find>
       <find>sum</find>
+      <find>view-log</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -117,10 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/common/model/BisAccount.php" />
-        <option value="$PROJECT_DIR$/application/bis/view/index/index.html" />
-        <option value="$PROJECT_DIR$/application/bis/controller/Login.php" />
-        <option value="$PROJECT_DIR$/application/bis/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/bis/controller/Base.php" />
         <option value="$PROJECT_DIR$/application/bis/controller/Location.php" />
         <option value="$PROJECT_DIR$/application/bis/view/location/add.html" />
@@ -134,7 +105,6 @@
         <option value="$PROJECT_DIR$/application/common/model/City.php" />
         <option value="$PROJECT_DIR$/application/admin/view/deal/index.html" />
         <option value="$PROJECT_DIR$/application/bis/controller/Register.php" />
-        <option value="$PROJECT_DIR$/application/admin/controller/Deal.php" />
         <option value="$PROJECT_DIR$/application/admin/view/public/menu.html" />
         <option value="$PROJECT_DIR$/application/admin/view/public/footer.html" />
         <option value="$PROJECT_DIR$/application/admin/view/public/header.html" />
@@ -168,6 +138,11 @@
         <option value="$PROJECT_DIR$/application/index/controller/Order.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Pay.php" />
         <option value="$PROJECT_DIR$/application/common.php" />
+        <option value="$PROJECT_DIR$/public/weixin/example/native.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Weixinpay.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/config.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/Deal.php" />
       </list>
     </option>
   </component>
@@ -230,6 +205,29 @@
               <item name="sticky" type="b2602c69:ProjectViewProjectNode" />
               <item name="sticky" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sticky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticky" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sticky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticky" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sticky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticky" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sticky" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticky" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -240,17 +238,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/laragon/www/sticky/application/admin/view/category/edit.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/index/controller" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\laragon\www\sticky" />
       <recent name="D:\laragon\www\sticky\application\index\controller" />
+      <recent name="D:\laragon\www\sticky\public\weixin" />
+      <recent name="D:\laragon\www\sticky" />
       <recent name="D:\laragon\www\sticky\application\common\model" />
       <recent name="D:\laragon\www\sticky\application\index\view\detail" />
-      <recent name="D:\laragon\www\sticky\application\admin\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\laragon\www\sticky\public\static\admin\uploadify" />
@@ -295,17 +293,18 @@
       <workItem from="1562034063453" duration="12820000" />
       <workItem from="1562204472486" duration="14297000" />
       <workItem from="1562231268824" duration="3326000" />
-      <workItem from="1562291615461" duration="21571000" />
+      <workItem from="1562291615461" duration="25134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152749000" />
+    <option name="totallyTimeSpent" value="156312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1939" height="1051" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.2086216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.17722192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50108933" side_tool="true" weight="0.15274082" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,57 +373,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admin/view/public/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/extra/map.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/extra/email.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/public/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/extra/queue.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/bis/view/public/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/public/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/validate/Bis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/validate/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/bis/validate/BisLocation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -701,23 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/order/confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#2;n#!!top" />
-            <element signature="n#div#3;n#!!top" />
-            <element signature="e#5472#5544#0" />
-            <element signature="e#5575#6144#0" />
-            <element signature="e#6192#6276#0" />
-            <element signature="e#6311#6410#0" />
-            <element signature="e#6444#6543#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/common/model/Order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -748,6 +679,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sticky.sql">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/weixin/lib/WxPay.Api.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/weixin/lib/WxPay.Config.Interface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Weixinpay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#39#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/weixin/example/native.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="41" selection-start-line="41" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/order/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="174" column="28" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/log/201907/08.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="116" column="14" lean-forward="true" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#39#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Deal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

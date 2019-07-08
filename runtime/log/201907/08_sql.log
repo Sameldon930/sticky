@@ -1,0 +1,20 @@
+[ 2019-07-08T09:55:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002226s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.002306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000365s ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:56:51+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010021s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_deal` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 0,15 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000342s ]
+
+---------------------------------------------------------------

@@ -2,12 +2,14 @@
 namespace app\admin\controller;
 
 use think\Controller;
+use think\Log;
 
 class Index extends  Controller
 {
     public function index()
     {
-
+        $id = 1;
+        Log::write('view-log',$id,'log');
         return $this->fetch();
     }
 //    public function welcome(){

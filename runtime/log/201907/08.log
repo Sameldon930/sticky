@@ -1,0 +1,466 @@
+[ 2019-07-08T09:13:26+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：1.238360s][吞吐率：0.81req/s] [内存消耗：2,779.95kb] [文件加载：62]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\laragon\www\sticky\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/index\view\index\index.html [ array (
+  0 => 'controller',
+  1 => 'citys',
+  2 => 'city',
+  3 => 'cats',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'foods',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009142s ] mysql:dbname=sticky;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.015385s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'hefei' LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.023632s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001828s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (1,2,3)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.015804s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1562548405  AND `category_id` = 1  AND `city_id` = 7  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 1  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4 [ RunTime:0.000589s ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:37:22+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.542032s][吞吐率：1.84req/s] [内存消耗：1,751.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal offset type[D:\laragon\www\sticky\thinkphp\library\think\Log.php:178]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:37:32+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.024680s][吞吐率：40.52req/s] [内存消耗：1,751.90kb] [文件加载：53]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal offset type[D:\laragon\www\sticky\thinkphp\library\think\Log.php:178]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:38:05+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.019259s][吞吐率：51.92req/s] [内存消耗：1,662.36kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:38:05+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.043383s][吞吐率：23.05req/s] [内存消耗：1,770.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:41:36+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.026785s][吞吐率：37.33req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:41:36+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.031529s][吞吐率：31.72req/s] [内存消耗：1,770.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:41:37+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.016504s][吞吐率：60.59req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:41:37+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.019014s][吞吐率：52.59req/s] [内存消耗：1,770.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:42:09+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.022401s][吞吐率：44.64req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:42:09+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.026233s][吞吐率：38.12req/s] [内存消耗：1,770.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:55:23+08:00 ] ::1 ::1 GET /admin/deal/index.html
+[ log ] localhost/admin/deal/index.html [运行时间：0.185930s][吞吐率：5.38req/s] [内存消耗：2,778.58kb] [文件加载：65]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->index[ D:\laragon\www\sticky\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-07-08T09:56:46+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.031421s][吞吐率：31.83req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:56:46+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.083255s][吞吐率：12.01req/s] [内存消耗：1,873.28kb] [文件加载：56]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:56:47+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.026092s][吞吐率：38.33req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:56:47+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.031195s][吞吐率：32.06req/s] [内存消耗：1,873.28kb] [文件加载：56]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:56:48+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.026081s][吞吐率：38.34req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:56:48+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.030859s][吞吐率：32.41req/s] [内存消耗：1,873.28kb] [文件加载：56]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:56:48+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.025120s][吞吐率：39.81req/s] [内存消耗：1,662.86kb] [文件加载：47]
+[ 1 ] view-log
+
+[ 2019-07-08T09:56:48+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.032136s][吞吐率：31.12req/s] [内存消耗：1,873.28kb] [文件加载：56]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\laragon\www\sticky\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\index\index.html [ array (
+) ]
+
+---------------------------------------------------------------
+[ 2019-07-08T09:56:51+08:00 ] ::1 ::1 GET /admin/deal/index.html
+[ log ] localhost/admin/deal/index.html [运行时间：0.172585s][吞吐率：5.79req/s] [内存消耗：3,161.38kb] [文件加载：74]
+[ info ] [ LANG ] D:\laragon\www\sticky\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'pgv_pvi=6027399168; Hm_lvt_080836300300be57b7f34f4b3e97d911=1560241731,1560388474; UM_distinctid=16b73afeb3e88d-0a279580568449-3b654406-1fa400-16b73afeb3f8c2; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%225780a21060db2a4dd7c403240ab3f67f-0d1ea4d411214533aff6a621462d4da4%22%2C%22%24device_id%22%3A%2216b73d12e301b6-0d01843deed5ad-3b654406-2073600-16b73d12e31764%22%2C%22props%22%3A%7B%7D%7D; footerBannerConfirmed=true; CNZZDATA1267378074=1139574555-1561552348-null%7C1561571602; Huiskin=default; PHPSESSID=nt1rld3ingebqol2301t715ap9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Deal->index[ D:\laragon\www\sticky\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] D:\laragon\www\sticky\public/../application/admin\view\deal\index.html [ array (
+  0 => 'categorys',
+  1 => 'citys',
+  2 => 'deals',
+  3 => 'category_id',
+  4 => 'city_id',
+  5 => 'name',
+  6 => 'start_time',
+  7 => 'end_time',
+  8 => 'categoryArr',
+  9 => 'cityArr',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

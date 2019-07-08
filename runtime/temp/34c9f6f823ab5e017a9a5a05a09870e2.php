@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:70:"D:\laragon\www\sticky\public/../application/admin\view\deal\index.html";i:1562046887;s:73:"D:\laragon\www\sticky\public/../application/admin\view\public\header.html";i:1561009508;s:73:"D:\laragon\www\sticky\public/../application/admin\view\public\footer.html";i:1560923367;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:70:"D:\laragon\www\sticky\public/../application/admin\view\deal\index.html";i:1562046887;s:73:"D:\laragon\www\sticky\public/../application/admin\view\public\header.html";i:1562048442;s:73:"D:\laragon\www\sticky\public/../application/admin\view\public\footer.html";i:1562048410;}*/ ?>
 <!--包含头部文件-->
 <!DOCTYPE HTML>
 <html>
@@ -23,6 +23,7 @@
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/hui/static/h-ui.admin/css/style.css" />
 
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/admin/uploadify/uploadify.css" />
 <!--[if IE 6]>
 <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
@@ -107,5 +108,7 @@
 <script type="text/javascript" src="__STATIC__/admin/hui/static/h-ui/js/H-ui.js"></script> 
 <script type="text/javascript" src="__STATIC__/admin/hui/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script type="text/javascript" src="__STATIC__/admin/js/common.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/uploadify/jquery.uploadify.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/js/image.js"></script>
 
 <script src="__STATIC__/admin/hui/lib/My97DatePicker/WdatePicker.js"></script>
